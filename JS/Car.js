@@ -1,9 +1,9 @@
 class Car {
-	constructor(license, driver) {
-		this.id;
+	constructor(id, license, driver, passenger) {
+		this.id = id;
 		this.license = license;
 		this.driver = driver;
-		this.passenger;
+		this.passenger = passenger;
 	}
 
 	printDataCar() {

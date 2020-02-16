@@ -1,5 +1,9 @@
 <?php 
    class Payment {
-      public $int;
+      public $id;
+
+      public function __construct($id) {
+         $this->id = $id;
+      }
    }
 ?>
